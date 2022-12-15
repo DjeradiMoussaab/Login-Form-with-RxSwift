@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDF6C14D294B118E00574080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C14C294B118E00574080 /* AppDelegate.swift */; };
+		BDF6C14F294B118E00574080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C14E294B118E00574080 /* SceneDelegate.swift */; };
+		BDF6C151294B118E00574080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C150294B118E00574080 /* ViewController.swift */; };
+		BDF6C154294B118E00574080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF6C152294B118E00574080 /* Main.storyboard */; };
+		BDF6C156294B119200574080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF6C155294B119200574080 /* Assets.xcassets */; };
+		BDF6C159294B119200574080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF6C157294B119200574080 /* LaunchScreen.storyboard */; };
+		BDF6C164294B119200574080 /* Login_Form_with_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C163294B119200574080 /* Login_Form_with_RxSwiftTests.swift */; };
+		BDF6C16E294B119200574080 /* Login_Form_with_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C16D294B119200574080 /* Login_Form_with_RxSwiftUITests.swift */; };
+		BDF6C170294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C16F294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDF6C160294B119200574080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6C141294B118E00574080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF6C148294B118E00574080;
+			remoteInfo = "Login Form with RxSwift";
+		};
+		BDF6C16A294B119200574080 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDF6C141294B118E00574080 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDF6C148294B118E00574080;
+			remoteInfo = "Login Form with RxSwift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDF6C149294B118E00574080 /* Login Form with RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Form with RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6C14C294B118E00574080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDF6C14E294B118E00574080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDF6C150294B118E00574080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDF6C153294B118E00574080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF6C155294B119200574080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDF6C158294B119200574080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDF6C15A294B119200574080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDF6C15F294B119200574080 /* Login Form with RxSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Form with RxSwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6C163294B119200574080 /* Login_Form_with_RxSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Form_with_RxSwiftTests.swift; sourceTree = "<group>"; };
+		BDF6C169294B119200574080 /* Login Form with RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Form with RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDF6C16D294B119200574080 /* Login_Form_with_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Form_with_RxSwiftUITests.swift; sourceTree = "<group>"; };
+		BDF6C16F294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Form_with_RxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDF6C146294B118E00574080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6C15C294B119200574080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6C166294B119200574080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDF6C140294B118E00574080 = {
+			isa = PBXGroup;
+			children = (
+				BDF6C14B294B118E00574080 /* Login Form with RxSwift */,
+				BDF6C162294B119200574080 /* Login Form with RxSwiftTests */,
+				BDF6C16C294B119200574080 /* Login Form with RxSwiftUITests */,
+				BDF6C14A294B118E00574080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDF6C14A294B118E00574080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C149294B118E00574080 /* Login Form with RxSwift.app */,
+				BDF6C15F294B119200574080 /* Login Form with RxSwiftTests.xctest */,
+				BDF6C169294B119200574080 /* Login Form with RxSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDF6C14B294B118E00574080 /* Login Form with RxSwift */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C14C294B118E00574080 /* AppDelegate.swift */,
+				BDF6C14E294B118E00574080 /* SceneDelegate.swift */,
+				BDF6C150294B118E00574080 /* ViewController.swift */,
+				BDF6C152294B118E00574080 /* Main.storyboard */,
+				BDF6C155294B119200574080 /* Assets.xcassets */,
+				BDF6C157294B119200574080 /* LaunchScreen.storyboard */,
+				BDF6C15A294B119200574080 /* Info.plist */,
+			);
+			path = "Login Form with RxSwift";
+			sourceTree = "<group>";
+		};
+		BDF6C162294B119200574080 /* Login Form with RxSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C163294B119200574080 /* Login_Form_with_RxSwiftTests.swift */,
+			);
+			path = "Login Form with RxSwiftTests";
+			sourceTree = "<group>";
+		};
+		BDF6C16C294B119200574080 /* Login Form with RxSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C16D294B119200574080 /* Login_Form_with_RxSwiftUITests.swift */,
+				BDF6C16F294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift */,
+			);
+			path = "Login Form with RxSwiftUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDF6C148294B118E00574080 /* Login Form with RxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF6C173294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwift" */;
+			buildPhases = (
+				BDF6C145294B118E00574080 /* Sources */,
+				BDF6C146294B118E00574080 /* Frameworks */,
+				BDF6C147294B118E00574080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Login Form with RxSwift";
+			productName = "Login Form with RxSwift";
+			productReference = BDF6C149294B118E00574080 /* Login Form with RxSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDF6C15E294B119200574080 /* Login Form with RxSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF6C176294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwiftTests" */;
+			buildPhases = (
+				BDF6C15B294B119200574080 /* Sources */,
+				BDF6C15C294B119200574080 /* Frameworks */,
+				BDF6C15D294B119200574080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF6C161294B119200574080 /* PBXTargetDependency */,
+			);
+			name = "Login Form with RxSwiftTests";
+			productName = "Login Form with RxSwiftTests";
+			productReference = BDF6C15F294B119200574080 /* Login Form with RxSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDF6C168294B119200574080 /* Login Form with RxSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDF6C179294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwiftUITests" */;
+			buildPhases = (
+				BDF6C165294B119200574080 /* Sources */,
+				BDF6C166294B119200574080 /* Frameworks */,
+				BDF6C167294B119200574080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDF6C16B294B119200574080 /* PBXTargetDependency */,
+			);
+			name = "Login Form with RxSwiftUITests";
+			productName = "Login Form with RxSwiftUITests";
+			productReference = BDF6C169294B119200574080 /* Login Form with RxSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDF6C141294B118E00574080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					BDF6C148294B118E00574080 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					BDF6C15E294B119200574080 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDF6C148294B118E00574080;
+					};
+					BDF6C168294B119200574080 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = BDF6C148294B118E00574080;
+					};
+				};
+			};
+			buildConfigurationList = BDF6C144294B118E00574080 /* Build configuration list for PBXProject "Login Form with RxSwift" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDF6C140294B118E00574080;
+			productRefGroup = BDF6C14A294B118E00574080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDF6C148294B118E00574080 /* Login Form with RxSwift */,
+				BDF6C15E294B119200574080 /* Login Form with RxSwiftTests */,
+				BDF6C168294B119200574080 /* Login Form with RxSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDF6C147294B118E00574080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6C159294B119200574080 /* LaunchScreen.storyboard in Resources */,
+				BDF6C156294B119200574080 /* Assets.xcassets in Resources */,
+				BDF6C154294B118E00574080 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6C15D294B119200574080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6C167294B119200574080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDF6C145294B118E00574080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6C151294B118E00574080 /* ViewController.swift in Sources */,
+				BDF6C14D294B118E00574080 /* AppDelegate.swift in Sources */,
+				BDF6C14F294B118E00574080 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6C15B294B119200574080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6C164294B119200574080 /* Login_Form_with_RxSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF6C165294B119200574080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF6C170294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift in Sources */,
+				BDF6C16E294B119200574080 /* Login_Form_with_RxSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDF6C161294B119200574080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF6C148294B118E00574080 /* Login Form with RxSwift */;
+			targetProxy = BDF6C160294B119200574080 /* PBXContainerItemProxy */;
+		};
+		BDF6C16B294B119200574080 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDF6C148294B118E00574080 /* Login Form with RxSwift */;
+			targetProxy = BDF6C16A294B119200574080 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDF6C152294B118E00574080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF6C153294B118E00574080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDF6C157294B119200574080 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDF6C158294B119200574080 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDF6C171294B119200574080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDF6C172294B119200574080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDF6C174294B119200574080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y652TUB927;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Login Form with RxSwift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moussaab.Login-Form-with-RxSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDF6C175294B119200574080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y652TUB927;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Login Form with RxSwift/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moussaab.Login-Form-with-RxSwift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDF6C177294B119200574080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y652TUB927;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moussaab.Login-Form-with-RxSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Form with RxSwift.app/Login Form with RxSwift";
+			};
+			name = Debug;
+		};
+		BDF6C178294B119200574080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y652TUB927;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moussaab.Login-Form-with-RxSwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Login Form with RxSwift.app/Login Form with RxSwift";
+			};
+			name = Release;
+		};
+		BDF6C17A294B119200574080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y652TUB927;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moussaab.Login-Form-with-RxSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Form with RxSwift";
+			};
+			name = Debug;
+		};
+		BDF6C17B294B119200574080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y652TUB927;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Moussaab.Login-Form-with-RxSwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Login Form with RxSwift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDF6C144294B118E00574080 /* Build configuration list for PBXProject "Login Form with RxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6C171294B119200574080 /* Debug */,
+				BDF6C172294B119200574080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF6C173294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6C174294B119200574080 /* Debug */,
+				BDF6C175294B119200574080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF6C176294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6C177294B119200574080 /* Debug */,
+				BDF6C178294B119200574080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDF6C179294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDF6C17A294B119200574080 /* Debug */,
+				BDF6C17B294B119200574080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDF6C141294B118E00574080 /* Project object */;
+}

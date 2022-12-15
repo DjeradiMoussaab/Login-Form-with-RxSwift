@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D44153779697B4054E23CF4 /* Pods_Login_Form_with_RxSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3A1C1FA66EE0394973976DA /* Pods_Login_Form_with_RxSwiftTests.framework */; };
+		55358107489E6EBB5B38BFDE /* Pods_Login_Form_with_RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DEAE60E735DD324D338198C /* Pods_Login_Form_with_RxSwift.framework */; };
 		BDF6C14D294B118E00574080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C14C294B118E00574080 /* AppDelegate.swift */; };
 		BDF6C14F294B118E00574080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C14E294B118E00574080 /* SceneDelegate.swift */; };
-		BDF6C151294B118E00574080 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C150294B118E00574080 /* ViewController.swift */; };
-		BDF6C154294B118E00574080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF6C152294B118E00574080 /* Main.storyboard */; };
+		BDF6C151294B118E00574080 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C150294B118E00574080 /* LoginViewController.swift */; };
 		BDF6C156294B119200574080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDF6C155294B119200574080 /* Assets.xcassets */; };
 		BDF6C159294B119200574080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDF6C157294B119200574080 /* LaunchScreen.storyboard */; };
 		BDF6C164294B119200574080 /* Login_Form_with_RxSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C163294B119200574080 /* Login_Form_with_RxSwiftTests.swift */; };
 		BDF6C16E294B119200574080 /* Login_Form_with_RxSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C16D294B119200574080 /* Login_Form_with_RxSwiftUITests.swift */; };
 		BDF6C170294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C16F294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift */; };
+		BDF6C182294B12F900574080 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C181294B12F900574080 /* LoginViewModel.swift */; };
+		BDF6C184294B132300574080 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C183294B132300574080 /* LoginView.swift */; };
+		BDF6C186294B1D2800574080 /* CustomUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDF6C185294B1D2800574080 /* CustomUITextField.swift */; };
+		DCE612FFDF35428DB3E1FC7D /* Pods_Login_Form_with_RxSwift_Login_Form_with_RxSwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B26C9CC164642ECC4EBB52 /* Pods_Login_Form_with_RxSwift_Login_Form_with_RxSwiftUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,11 +41,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01B26C9CC164642ECC4EBB52 /* Pods_Login_Form_with_RxSwift_Login_Form_with_RxSwiftUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Form_with_RxSwift_Login_Form_with_RxSwiftUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FD32B2201700509DB2374CE /* Pods-Login Form with RxSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Form with RxSwiftTests.release.xcconfig"; path = "Target Support Files/Pods-Login Form with RxSwiftTests/Pods-Login Form with RxSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
+		5EB42847CA77155DEF7DA13C /* Pods-Login Form with RxSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Form with RxSwiftTests.debug.xcconfig"; path = "Target Support Files/Pods-Login Form with RxSwiftTests/Pods-Login Form with RxSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
+		75D19C5782F75108196BC6AB /* Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.debug.xcconfig"; path = "Target Support Files/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8CEB378B90AF1735C2D15670 /* Pods-Login Form with RxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Form with RxSwift.debug.xcconfig"; path = "Target Support Files/Pods-Login Form with RxSwift/Pods-Login Form with RxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		8DEAE60E735DD324D338198C /* Pods_Login_Form_with_RxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Form_with_RxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07D4E6D1805F8FD836DFE12 /* Pods-Login Form with RxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Form with RxSwift.release.xcconfig"; path = "Target Support Files/Pods-Login Form with RxSwift/Pods-Login Form with RxSwift.release.xcconfig"; sourceTree = "<group>"; };
+		B3A1C1FA66EE0394973976DA /* Pods_Login_Form_with_RxSwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Login_Form_with_RxSwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF6C149294B118E00574080 /* Login Form with RxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Login Form with RxSwift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF6C14C294B118E00574080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BDF6C14E294B118E00574080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BDF6C150294B118E00574080 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		BDF6C153294B118E00574080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDF6C150294B118E00574080 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BDF6C155294B119200574080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDF6C158294B119200574080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BDF6C15A294B119200574080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +61,10 @@
 		BDF6C169294B119200574080 /* Login Form with RxSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Login Form with RxSwiftUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDF6C16D294B119200574080 /* Login_Form_with_RxSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Form_with_RxSwiftUITests.swift; sourceTree = "<group>"; };
 		BDF6C16F294B119200574080 /* Login_Form_with_RxSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login_Form_with_RxSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BDF6C181294B12F900574080 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		BDF6C183294B132300574080 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		BDF6C185294B1D2800574080 /* CustomUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomUITextField.swift; sourceTree = "<group>"; };
+		E47F6872B903B0BEDBE08FEE /* Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55358107489E6EBB5B38BFDE /* Pods_Login_Form_with_RxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D44153779697B4054E23CF4 /* Pods_Login_Form_with_RxSwiftTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCE612FFDF35428DB3E1FC7D /* Pods_Login_Form_with_RxSwift_Login_Form_with_RxSwiftUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57F25A7CEBE6FE1585BAA9BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8DEAE60E735DD324D338198C /* Pods_Login_Form_with_RxSwift.framework */,
+				01B26C9CC164642ECC4EBB52 /* Pods_Login_Form_with_RxSwift_Login_Form_with_RxSwiftUITests.framework */,
+				B3A1C1FA66EE0394973976DA /* Pods_Login_Form_with_RxSwiftTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BDF6C140294B118E00574080 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +112,8 @@
 				BDF6C162294B119200574080 /* Login Form with RxSwiftTests */,
 				BDF6C16C294B119200574080 /* Login Form with RxSwiftUITests */,
 				BDF6C14A294B118E00574080 /* Products */,
+				D83E90275C6171CFE2A6B8E1 /* Pods */,
+				57F25A7CEBE6FE1585BAA9BB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +130,8 @@
 		BDF6C14B294B118E00574080 /* Login Form with RxSwift */ = {
 			isa = PBXGroup;
 			children = (
-				BDF6C14C294B118E00574080 /* AppDelegate.swift */,
-				BDF6C14E294B118E00574080 /* SceneDelegate.swift */,
-				BDF6C150294B118E00574080 /* ViewController.swift */,
-				BDF6C152294B118E00574080 /* Main.storyboard */,
+				BDF6C17C294B129200574080 /* AppDelegate */,
+				BDF6C17D294B12B000574080 /* Features */,
 				BDF6C155294B119200574080 /* Assets.xcassets */,
 				BDF6C157294B119200574080 /* LaunchScreen.storyboard */,
 				BDF6C15A294B119200574080 /* Info.plist */,
@@ -127,6 +156,63 @@
 			path = "Login Form with RxSwiftUITests";
 			sourceTree = "<group>";
 		};
+		BDF6C17C294B129200574080 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C14C294B118E00574080 /* AppDelegate.swift */,
+				BDF6C14E294B118E00574080 /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		BDF6C17D294B12B000574080 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C17E294B12B500574080 /* Login */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		BDF6C17E294B12B500574080 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C180294B12C500574080 /* ViewModels */,
+				BDF6C17F294B12C100574080 /* Views */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		BDF6C17F294B12C100574080 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C150294B118E00574080 /* LoginViewController.swift */,
+				BDF6C183294B132300574080 /* LoginView.swift */,
+				BDF6C185294B1D2800574080 /* CustomUITextField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BDF6C180294B12C500574080 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				BDF6C181294B12F900574080 /* LoginViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D83E90275C6171CFE2A6B8E1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CEB378B90AF1735C2D15670 /* Pods-Login Form with RxSwift.debug.xcconfig */,
+				A07D4E6D1805F8FD836DFE12 /* Pods-Login Form with RxSwift.release.xcconfig */,
+				75D19C5782F75108196BC6AB /* Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.debug.xcconfig */,
+				E47F6872B903B0BEDBE08FEE /* Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.release.xcconfig */,
+				5EB42847CA77155DEF7DA13C /* Pods-Login Form with RxSwiftTests.debug.xcconfig */,
+				0FD32B2201700509DB2374CE /* Pods-Login Form with RxSwiftTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDF6C173294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwift" */;
 			buildPhases = (
+				50B00FE6A7270ED3619E53C1 /* [CP] Check Pods Manifest.lock */,
 				BDF6C145294B118E00574080 /* Sources */,
 				BDF6C146294B118E00574080 /* Frameworks */,
 				BDF6C147294B118E00574080 /* Resources */,
+				256F8844AB1B143F3BC922F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDF6C176294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwiftTests" */;
 			buildPhases = (
+				82C41AE3083EC712C3E6150A /* [CP] Check Pods Manifest.lock */,
 				BDF6C15B294B119200574080 /* Sources */,
 				BDF6C15C294B119200574080 /* Frameworks */,
 				BDF6C15D294B119200574080 /* Resources */,
@@ -169,9 +258,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDF6C179294B119200574080 /* Build configuration list for PBXNativeTarget "Login Form with RxSwiftUITests" */;
 			buildPhases = (
+				9234DD49A7A20086CC04D59E /* [CP] Check Pods Manifest.lock */,
 				BDF6C165294B119200574080 /* Sources */,
 				BDF6C166294B119200574080 /* Frameworks */,
 				BDF6C167294B119200574080 /* Resources */,
+				AF00187B6DAF98A5AB01B358 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +324,6 @@
 			files = (
 				BDF6C159294B119200574080 /* LaunchScreen.storyboard in Resources */,
 				BDF6C156294B119200574080 /* Assets.xcassets in Resources */,
-				BDF6C154294B118E00574080 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +343,119 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		256F8844AB1B143F3BC922F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Login Form with RxSwift/Pods-Login Form with RxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Login Form with RxSwift/Pods-Login Form with RxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Login Form with RxSwift/Pods-Login Form with RxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50B00FE6A7270ED3619E53C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login Form with RxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		82C41AE3083EC712C3E6150A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login Form with RxSwiftTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9234DD49A7A20086CC04D59E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF00187B6DAF98A5AB01B358 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests/Pods-Login Form with RxSwift-Login Form with RxSwiftUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BDF6C145294B118E00574080 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDF6C151294B118E00574080 /* ViewController.swift in Sources */,
+				BDF6C182294B12F900574080 /* LoginViewModel.swift in Sources */,
+				BDF6C151294B118E00574080 /* LoginViewController.swift in Sources */,
 				BDF6C14D294B118E00574080 /* AppDelegate.swift in Sources */,
+				BDF6C184294B132300574080 /* LoginView.swift in Sources */,
+				BDF6C186294B1D2800574080 /* CustomUITextField.swift in Sources */,
 				BDF6C14F294B118E00574080 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,14 +493,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		BDF6C152294B118E00574080 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BDF6C153294B118E00574080 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		BDF6C157294B119200574080 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -432,6 +620,7 @@
 		};
 		BDF6C174294B119200574080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CEB378B90AF1735C2D15670 /* Pods-Login Form with RxSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,7 +631,6 @@
 				INFOPLIST_FILE = "Login Form with RxSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -460,6 +648,7 @@
 		};
 		BDF6C175294B119200574080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A07D4E6D1805F8FD836DFE12 /* Pods-Login Form with RxSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -470,7 +659,6 @@
 				INFOPLIST_FILE = "Login Form with RxSwift/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -488,6 +676,7 @@
 		};
 		BDF6C177294B119200574080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EB42847CA77155DEF7DA13C /* Pods-Login Form with RxSwiftTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +697,7 @@
 		};
 		BDF6C178294B119200574080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD32B2201700509DB2374CE /* Pods-Login Form with RxSwiftTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +718,7 @@
 		};
 		BDF6C17A294B119200574080 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75D19C5782F75108196BC6AB /* Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +737,7 @@
 		};
 		BDF6C17B294B119200574080 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E47F6872B903B0BEDBE08FEE /* Pods-Login Form with RxSwift-Login Form with RxSwiftUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
